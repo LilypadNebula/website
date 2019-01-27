@@ -2,7 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Banner from './banner'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {
+  faGithub,
+  faTwitter,
+  faTwitch,
+} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Header = ({ siteTitle }) => (
@@ -36,6 +40,13 @@ const Header = ({ siteTitle }) => (
           <a href="https://twitter.com/lilypadnebula">
             <FontAwesomeIcon
               icon={faTwitter}
+              className="text-main mx-2"
+              size="2x"
+            />
+          </a>
+          <a href="https://twitch.tv/lilypadnebula">
+            <FontAwesomeIcon
+              icon={faTwitch}
               className="text-main mx-2"
               size="2x"
             />
