@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </div>
       <div className="hidden ml-auto md:flex justify-around items-center font-montAlt">
-        <div className="mr-6 font-bold">
+        <div className="mr-6 font-bold flex justify-center items-center">
           <Link to="/schedule" className="text-main no-underline mx-3 text-3xl">
             Schedule
           </Link>
@@ -29,33 +29,33 @@ const Header = ({ siteTitle }) => (
             Games
           </Link>
         </div>
-        <div>
+        <div className=" flex justify-center items-center">
           <a href="https://github.com/lilypadnebula">
             <FontAwesomeIcon
               icon={faGithub}
               className="text-main mx-2"
-              size="2x"
+              size="3x"
             />
           </a>
           <a href="https://twitter.com/lilypadnebula">
             <FontAwesomeIcon
               icon={faTwitter}
               className="text-main mx-2"
-              size="2x"
+              size="3x"
             />
           </a>
           <a href="https://twitch.tv/lilypadnebula">
             <FontAwesomeIcon
               icon={faTwitch}
               className="text-main mx-2"
-              size="2x"
+              size="3x"
             />
           </a>
           <button className="focus:outline-none">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="text-main mx-2"
-              size="2x"
+              size="3x"
             />
           </button>
         </div>
