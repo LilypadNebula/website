@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
-import Header from '../components/header'
+import Header from './header'
 import './layout.css'
-import MobileFooter from '../components/MobileFooter'
+import MobileFooter from './MobileFooter'
 require('typeface-montserrat')
 require('typeface-montserrat-alternates')
 
