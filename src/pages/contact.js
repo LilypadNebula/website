@@ -7,8 +7,8 @@ const ContactPage = () => {
       <form
         name="contactForm"
         method="POST"
-        netlify="true"
-        netlify-honeypot="noInput"
+        data-netlify="true"
+        data-netlify-honeypot="noInput"
         action="/submitted"
       >
         <p className="hidden">
@@ -22,6 +22,7 @@ const ContactPage = () => {
               required
               type="text"
               id="nameInput"
+              name="Name"
               className="p-2 border border-black rounded m-2"
             />
           </label>
@@ -33,6 +34,7 @@ const ContactPage = () => {
               required
               type="email"
               id="emailInput"
+              name="Email"
               className="p-2 border border-black rounded m-2"
             />
           </label>
@@ -45,6 +47,7 @@ const ContactPage = () => {
               rows="4"
               cols="20"
               id="message"
+              name="Message"
               className="p-2 border border-black rounded m-2"
             />
           </label>
