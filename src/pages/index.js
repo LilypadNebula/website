@@ -9,7 +9,10 @@ const IndexPage = () => (
     </div>
     <div className="font-mont text-2xl md:text-4xl w-full md:w-2/3 text-center">
       <h1 className="font-montAlt">Welcome!</h1>
-      <p>My name is Lily. Here you can check out some of the things I do</p>
+      <p>
+        My name is Lily. I'm a trans girl that's just trying to get by and make
+        some cool things. Here you can take a look at some of those things!
+      </p>
     </div>
   </FadingContent>
 )

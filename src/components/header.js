@@ -51,13 +51,13 @@ const Header = ({ siteTitle }) => (
               size="3x"
             />
           </a>
-          <button className="focus:outline-none">
+          <Link to="/contact">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="text-main mx-2"
               size="3x"
             />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

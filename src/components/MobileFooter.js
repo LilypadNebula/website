@@ -42,9 +42,9 @@ const MobileFooter = () => {
         <a href="https://twitch.tv/lilypadnebula">
           <FontAwesomeIcon icon={faTwitch} color="white" size="2x" />
         </a>
-        <button className="focus:outline-none">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faEnvelope} color="white" size="2x" />
-        </button>
+        </Link>
         <Flipper onClick={() => setFlip(!flip)}>
           <FontAwesomeIcon icon={faChevronCircleUp} size="2x" />
         </Flipper>
