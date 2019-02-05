@@ -1,9 +1,11 @@
 import React from 'react'
 import FadingContent from '../components/FadingContent'
 import Layout from '../components/Layout'
+import SEO from '../components/seo'
 
 const WebDev = () => (
   <Layout>
+    <SEO title="Web Dev" description="Info on the development stuff I do, and prices to pay me to make you a site!"/>
     <FadingContent className="text-4xl font-montAlt text-center my-4">
       <p>
         One of the things I do is coding, mostly with developing websites or

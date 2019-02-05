@@ -2,9 +2,11 @@ import React from 'react'
 import Chibi from '../components/chibi'
 import FadingContent from '../components/FadingContent'
 import Layout from '../components/Layout'
+import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home" description="My home page! All the stuff I do can be found here"/>
     <FadingContent className="flex flex-col-reverse items-center md:flex-row">
       <div className="w-full md:w-1/3">
         <Chibi />

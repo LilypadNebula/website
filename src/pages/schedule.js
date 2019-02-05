@@ -3,11 +3,11 @@ import FadingContent from '../components/FadingContent'
 // import EventList from '../components/EventList'
 import EventList from '../components/OtherEventList'
 import Layout from '../components/Layout'
+import SEO from '../components/seo'
 
-class Schedule extends React.Component {
-  render() {
-    return (
+const SchedulePage = () => (
       <Layout>
+        <SEO title="Schedule" description="Find out when I'm doing things, like streams and such"/>
         <FadingContent className="flex flex-col items-center text-center">
           <p className="text-2xl font-montAlt">
             Below are the things that should occur weekly barring any unforeseen
@@ -41,7 +41,5 @@ class Schedule extends React.Component {
         </FadingContent>
       </Layout>
     )
-  }
-}
 
-export default Schedule
+export default SchedulePage

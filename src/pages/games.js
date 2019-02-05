@@ -1,10 +1,12 @@
 import React from 'react'
 import FadingContent from '../components/FadingContent'
 import Layout from '../components/Layout'
+import SEO from '../components/seo'
 
-const Games = () => {
+const GamesPage = () => {
   return (
     <Layout>
+      <SEO title="Games" description="Information about the games I'm writing/designing"/>
       <FadingContent className="text-center text-3xl font-montAlt">
         <p>
           I do game stuff! Playing them and making them. The things I'm making
@@ -36,4 +38,4 @@ const Games = () => {
   )
 }
 
-export default Games
+export default GamesPage

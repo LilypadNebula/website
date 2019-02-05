@@ -11,7 +11,6 @@ const ContactPage = () => {
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="noInput"
-          action="/submitted"
         >
           <p className="hidden">
             <input name="noInput" />
