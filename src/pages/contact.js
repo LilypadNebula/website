@@ -53,6 +53,7 @@ const ContactPage = () => {
               />
             </label>
           </p>
+          <div data-netlify-recaptcha="true" />
           <p className="text-center">
             <button
               type="submit"
