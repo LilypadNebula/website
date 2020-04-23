@@ -30,7 +30,7 @@ const MobileFooter = () => {
   return (
     <Slider
       pose={flip ? 'up' : 'down'}
-      className="block md:hidden fixed pin-b w-full bg-main p-4 text-white font-montAlt rounded-t"
+      className="block md:hidden fixed bottom-0 w-full bg-main p-4 text-white font-montAlt rounded-t"
     >
       <div className=" flex items-center justify-around">
         <a href="https://github.com/lilypadnebula">
@@ -50,9 +50,6 @@ const MobileFooter = () => {
         </Flipper>
       </div>
       <div className="flex flex-col mt-4">
-        <Link to="/schedule" className="text-white no-underline text-2xl my-1">
-          <Mover>Schedule</Mover>
-        </Link>
         <Link to="/webdev" className="text-white no-underline text-2xl my-1">
           <Mover>Web Dev</Mover>
         </Link>
