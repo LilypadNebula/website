@@ -19,9 +19,6 @@ const Header = ({ siteTitle }) => (
       </div>
       <div className="hidden ml-auto md:flex justify-around items-center font-montAlt">
         <div className="mr-6 font-bold flex justify-center items-center">
-          <Link to="/schedule" className="text-main no-underline mx-3 text-3xl">
-            Schedule
-          </Link>
           <Link to="/webdev" className="text-main no-underline mx-3 text-3xl">
             Web Dev
           </Link>
